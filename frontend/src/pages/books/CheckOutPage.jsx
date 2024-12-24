@@ -19,7 +19,7 @@ function CheckOutPage() {
       const [isChecked, setIsChecked] = useState(false);
 
       const onSubmit = async (data) => {
-        console.log(data) // This will now log the form data
+        // console.log(data) // This will now log the form data
 
         const newOrder = {
             name: data.name,
